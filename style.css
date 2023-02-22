@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;    
+}
+body{
+    background-color: rgb(177, 158, 158);
+}
+section{
+    max-width: 1440px;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.document-issued{
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+}
+.navbar-top{
+    padding: 10px;
+}
+
+.navbar-logo-sqb{
+    width: 200px;
+    height: 70px;
+}
+.navbar-emblem{
+    width: 100px;
+}
+.navbar-logo-mygov{
+    width: 200px;
+}
+.main-header{
+    text-align: center;
+    margin: 50px auto;
+}
+.line{
+    height: 2px;
+    width: 90%;
+    margin: 10px auto;
+    background-color: rgb(62, 58, 58);
+
+}
+main table{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+table{
+    border: 3px solid;
+}
+td, th{
+    border: 1px solid;
+}
+footer{
+    margin-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.contact-info{
+   display: flex;
+   padding-top: 145px;
+}
+
+
+.contact-info p{
+    font-size: 24px;
+    margin: 25px;
+    color: brown;
+}
+.contact-info ul{
+    font-size: 24px;
+    margin: 25px;
+    color: brown;
+
+}
+.contact-info a{
+    text-decoration: none;
+    color: brown;
+    margin-left: 10px;
+}
+.contact-img{
+    margin-bottom: 20px;
+}
+.contact-img img{
+    margin-bottom: 20px;
+}
+.contact-img p{
+    text-align: center;
+}
